@@ -5,7 +5,7 @@ class Solution {
             return s;
         }
  
-        StringBuilder[] rows = new StringBuilder[numRows];
+         StringBuilder[] rows = new StringBuilder[numRows];
         
         // Initialize rows
         for (int i = 0; i < numRows; i++) {
