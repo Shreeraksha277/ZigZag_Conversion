@@ -1,5 +1,5 @@
 class Solution {
-     public String convert(String s, int numRows) {
+      public String convert(String s, int numRows) {
         // Edge case
         if (numRows == 1 || s.length() <= numRows) {
             return s;
