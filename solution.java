@@ -4,7 +4,7 @@ class Solution {
          if (numRows == 1 || s.length() <= numRows) {
             return s;
         }
-
+ 
         StringBuilder[] rows = new StringBuilder[numRows];
         
         // Initialize rows
